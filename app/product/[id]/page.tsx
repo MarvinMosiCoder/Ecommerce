@@ -1,4 +1,4 @@
-import { supabaseServer } from '@/lib/supabase'
+import { supabaseServer } from '@/lib/supabase-client'
 import AddToCart from '@/components/AddToCart'
 
 

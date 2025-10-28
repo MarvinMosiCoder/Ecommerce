@@ -1,6 +1,6 @@
 import { cookies } from 'next/headers'
-import { supabaseServer } from '@/lib/supabase'
-
+import { supabaseServer } from '@/lib/supabase-server'
+import { }
 
 export default async function CartPage() {
 const cartId = cookies().get('cart_id')?.value
